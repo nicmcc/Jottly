@@ -1,0 +1,220 @@
+/* This page is full of external style sheet for my website */
+
+body {background-color: #FF9912; 
+font-family: "Ubuntu", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 16px; 
+color: #FFFFFF;
+}
+
+h1 {font-family: 'Ubuntu', sans-serif;  
+font-size: 48px; 
+color: #FFFFFF; 
+text-align:center;
+}
+
+h2 {font-family: 'Ubuntu', sans-serif;  
+font-size: 36px; 
+color: #0D77B2; 
+text-align:center;
+}
+
+h3 {font-family: 'Ubuntu', sans-serif;  
+font-size: 26px; 
+color: #FFFFFF; 
+text-align:center;
+}
+
+h4 {font-family: 'Ubuntu', sans-serif;  
+font-size: 24px; 
+color: #FFFFFF; 
+text-align:center;
+text-transform: uppercase;
+}
+
+h5 {font-family: 'Ubuntu', sans-serif; 
+font-size: 20px; 
+color: #FFFFFF; 
+text-align:center;
+text-transform: capitalize;
+}
+
+/* navigation */
+
+#nav {background-color: #0D77B2;
+font-family: 'Ubuntu', sans-serif; 
+height: 100px;
+text-align: center;
+font-size: 18px;
+font-weight:bold;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+#nav ul {padding: 0;}
+
+#nav li {list-style-type: none;
+display: none;
+}
+
+nav a:link, nav a:visited
+{color: #FFFFFF;
+padding: 30px 0px 0px 0px;
+width: 120px;
+font-weight: bold;
+font-family: 'Ubuntu', sans-serif; 
+text-decoration: none;
+}
+
+#nav a:hover {
+color: #FFA42B;
+}
+
+.menu {
+  width: 40%;
+  float:right;
+  padding: 0 2rem;
+}
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 4px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-color: #FFFFFF;
+  color: #B26B0D;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  background-color: #FFFFFF;
+  color: #B26B0D;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  bbackground-color: #FF9912;
+  color: #fff;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .hero {
+    background-image: url('../images/bag-and-hands.jpg');
+    background-size: cover;
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+}

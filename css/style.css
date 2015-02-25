@@ -1,0 +1,233 @@
+/* This page is full of external style sheet for my website */
+ 
+header{
+float:left;
+padding: 10px 0 0 24px;
+}
+ 
+body {background-color: #0D77B2;
+font-family: "Ubuntu", sans-serif;
+font-size: 18px; 
+color: #FFFFFF;
+}
+ 
+h1 {font-family: 'Ubuntu', sans-serif;  
+font-size: 48px; 
+color: #FFFFFF; 
+text-align:center;
+}
+ 
+h2 {font-family: 'Ubuntu-Bold', sans-serif;  
+font-size: 36px; 
+color: #0D77B2;
+font-weight: bold;
+text-align:center;
+}
+ 
+h3 {font-family: 'Ubuntu-Light', sans-serif;  
+font-size: 26px; 
+color: #FFFFFF; 
+text-align:center;
+}
+ 
+h4 {font-family: 'Ubuntu', sans-serif;  
+font-size: 24px; 
+color: #FFFFFF; 
+text-align:center;
+text-transform: uppercase;
+}
+ 
+h5 {font-family: 'Ubuntu', sans-serif; 
+font-size: 20px; 
+color: #FFFFFF; 
+text-align:center;
+text-transform: capitalize;
+}
+ 
+h6 {font-family: "Ubuntu-Bold", sans-serif;
+font-size: 18px; 
+color: #555;
+font-weight: bold;
+text-align:center;
+}
+ 
+/* navigation */
+ 
+nav {background-color: #0D77B2;
+font-family: 'Ubuntu', sans-serif; 
+height: 100px;
+text-align: center;
+font-size: 18px;
+font-weight:bold;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+ 
+nav ul {padding: 0;}
+ 
+nav li {list-style-type: none;
+display: inline;
+}
+ 
+nav a:link, nav a:visited
+{color: #FFFFFF;
+padding: 3px 8px 0px 8px;
+width: 90%;
+font-weight: bold;
+font-family: 'Ubuntu', sans-serif; 
+text-decoration: none;
+}
+ 
+nav a:hover {
+color: #FFA42B;
+}
+ 
+.menu-right {
+    float:right;
+    padding: 4rem 2rem;
+}
+ 
+.menu-left {
+  float:left;
+  padding: 0 rem;
+}
+ 
+/* Macbook
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.macbook {
+  float: center;
+  max-width: 100%;
+  padding: 8rem;
+}
+ 
+/* Blockquote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+blockquote {font-family: 'Ubuntu', sans-serif; 
+font-size: 20px; 
+color: #FFFFFF;
+text-align: left;
+}
+ 
+/* Social Media Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.email {width: 70%;
+  font-size: small;
+}
+ 
+/* Social Media Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.social {list-style-type:none;
+float: right;
+position: relative; bottom: 100%; right: 2%;
+}
+ 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {background-color: #0D77B2;
+  color: #FFFFFF;
+  padding: 4rem 0 0;
+}
+ 
+/* Copyright
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.copyrite {
+  font-size: small;
+  float:left;
+  padding: 0 0 0 3rem;
+}
+ 
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 4px;
+  padding: 10 10 10 10;
+}
+ 
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 4rem;
+}
+ 
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
+ 
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-color: #FFFFFF;
+  color: #555;
+}
+ 
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  background-color: #FFFFFF;
+  color: #555;
+}
+ 
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-color: #FF9912;
+  color: #fff;
+}
+ 
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .hero {
+    background-image: url('../images/desktop.png');
+    background-size: cover;
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+ 
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+ 
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 10rem 0 10rem;
+  }
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+}
